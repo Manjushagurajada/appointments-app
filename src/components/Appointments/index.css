@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.container {
+  font-family: 'Roboto';
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.appointment-card {
+  height: 500px;
+  width: 900px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.image {
+  height: 250px;
+  width: 400px;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search-bar {
+  width: 250px;
+  height: 30px;
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.input-container {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.add-button {
+  color: white;
+  background-color: #8b5cf6;
+  border-radius: 5px;
+  border-width: 0px;
+  height: 30px;
+  width: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.appointments-part-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.starred-button {
+  color: #8b5cf6;
+  border: 1px solid #8b5cf6;
+  background-color: white;
+  border-radius: 10px;
+  height: 25px;
+  width: 80px;
+  margin-top: 20px;
+}
+
+.unordered-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

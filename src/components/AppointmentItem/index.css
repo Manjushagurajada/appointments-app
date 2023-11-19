@@ -1,0 +1,25 @@
+.list-item {
+  height: 85px;
+  width: 250px;
+  border: 1px solid #171f46;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.date-style {
+  color: #b5b7c4;
+}
+
+.starred-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.star-button {
+  background-color: white;
+  border-width: 0px;
+}
